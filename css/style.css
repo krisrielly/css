@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+/* index */
+
+body {
+    background-color: #c2c5d6;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444; 
+}
+
+.container {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px #000;
+    background-color: #ffffff;
+}
+/* header-banner */
+
+header {
+    width: 960px;
+    color: #6a6a6a;
+}
+
+nav {
+    text-align: center;
+    width: 960px;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6a6a6a; 
+    padding-left: 45px;
+    float: left; 
+    font-size: 14px; 
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* /header-banner */
+
+/* content */
+
+.tagline {
+    text-align: center;
+    color: #959bd1;
+    font-weight: bolder;
+}
+
+h1 {
+    color: #602E8B;
+}
+
+.contentindex {
+    padding: 10px 10px 10px 10px;
+    width: 960px; 
+}
+
+/* text */
+
+.articleindex {
+    float: left;
+    width: 500px;  
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.articleindex p {
+    font-size: 15px;
+}
+
+/* images */
+
+.asideindex {
+    padding-left: 600px;
+    padding-top: 10px; 
+    align-content: center;
+}
+
+.asideindex img {
+    padding-top: 10px;
+    padding-bottom: 5px; 
+}
+
+/* customer text */
+
+.customerindex {
+    clear: both;
+    padding-left: 30px;
+    width: 900px;
+}
+
+.customerindex p {
+    font-size: 12px; 
+}
+
+/* /content */
+
+footer { 
+    color: white;
+    background-color: #602e8b;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 5px; 
+    font-size: 12px;
+    
+}
+
+/* /index */
+
+/* room service */
+
+ul li a {
+    text-decoration: none;
+}
+
+.articlers {
+    float: left;
+    width: 500px; 
+    height: 500px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.asiders {
+    width: 300px; 
+    height: 500px; 
+    padding-left: 600px;
+    padding-top: 10px; 
+    align-content: center;
+}
+
+.rsform {
+    padding-top: 5px;
+    clear: both;
+}
+
+/* /room service */
+
+/* specials */
+
+.articlespecial {
+    width: 935px;
+}
+
+/* /specials */
+
+/* reservations */
+
+.reservationsh4 {
+    color: #959bd1;
+    font-weight: bolder;
+}
+
+.reservationform {
+    padding-left: 15px;
+}
+
+/* /reservations */
+
+/* news */
+
+.articlenews {
+    width: 935px; 
+}
+
+/* /news */
+
+/* meetings and events */
+
+.articlemeet {
+    width: 935px; 
+}
+
+.articleme {
+    float: left;
+    width: 500px; 
+    height: 900px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.asideme {
+    width: 300px; 
+    height: 900px; 
+    padding-left: 650px;
+    align-content: center;
+}
+
+.asideme img {
+    padding-top: 50px;
+
+}
+
+/* /meetings and events */
